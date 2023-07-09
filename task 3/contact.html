@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+    <h1>This is Contact page</h1>
+    <br>
+    <form>
+        <label for="fn">first name</label>
+        <input id="fn" name="firstname" type="text" placeholder="your first name" required maxlength="30">
+        <br>
+        <label for="sn">secound name</label>
+        <input id="sn" name="secoundname" type="text" placeholder="your secound name" required maxlength="30">
+        <br>
+        <label for="age">age</label>
+        <input id="age" name="age" type="number" placeholder="your age" required min="16" max="80">
+        <br>
+        <label for="email">email</label>
+        <input id="email" name="email" type="email" placeholder="your emal" required>
+        <br>
+        <label for="password">password</label>
+        <input id="password" name="password" type="password" placeholder="your password" required>
+        <br>
+        <hr color="red">
+        <span>what is your nationality :- </span>
+        <br>
+        <br>
+        <select multiple name="nationality">
+            <option value="Egypt">Egyption</option>
+            <option value="Russian">Russian</option>
+            <option value="Amereican">Amereican</option>
+        </select>
+        <hr color="red">
+        <h2>Enter your gender ! </h2>
+        <input name="gender" id="male" type="radio" value="male">
+        <label for="male">male</label>
+        <input name="gender" id="female" type="radio" value="female">
+        <label for="female">female</label>
+        <hr color="red">
+        <h3>what service u need ? </h3>
+        <input id="html" name="he need" type="checkbox" value="html">
+        <label for="html">html</label>
+        <br>
+        <input id="css" name="he need" type="checkbox" value="css">
+        <label for="css">css</label>
+        <br>
+        <input id="js" name="he need" type="checkbox" value="js">
+        <label for="js">js</label>
+        <br>
+        <hr color="red">
+        <h4>some info for what u want ! </h4>
+        <textarea name="what i need" cols="30" rows="10" placeholder="explain what u want here"></textarea>
+        <br>
+        <hr color="red">
+        <h4>what is your language ? </h4>
+        <input id="English" name="language" type="checkbox" value="English">
+        <label for="English">English</label>
+        <input id="Arabic" type="checkbox" name="language" value="Arabic" >
+        <label for="Arabic">Arabic</label>
+        <input id="Russian" type="checkbox" name="language" value="Russian">
+        <label for="">Russian</label>
+        <hr color="red">
+        <br>
+        <input type="color">
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="file" multiple accept="file/*">
+        <br>
+        <br>
+        <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset info</button>
+        
+    </form>
+    <br>
+    <input id="i agree for all" type="checkbox" required>
+    <label  for="i agree for all">i agree for all</label>
+    <br>
+
+</body>
+</html>
