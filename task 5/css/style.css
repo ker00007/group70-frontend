@@ -1,0 +1,12 @@
+.product{
+    background-color: gray;
+    width: 30%;
+    float: left;
+    
+}
+.product img{
+    width: 100%;
+}
+.clr{
+    clear: left;
+}
